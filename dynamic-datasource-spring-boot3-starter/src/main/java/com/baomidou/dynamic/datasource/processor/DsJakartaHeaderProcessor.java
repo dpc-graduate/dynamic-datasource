@@ -41,4 +41,7 @@ public class DsJakartaHeaderProcessor extends DsProcessor {
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
         return request.getHeader(key.substring(8));
     }
+    public static void main(String[] args){
+        System.out.println("xxxxxx");
+    }
 }
